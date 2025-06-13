@@ -1,0 +1,7 @@
+C:\Users\kristine heart\source\repos\taskManager\bin\Debug\taskManager.exe.config
+C:\Users\kristine heart\source\repos\taskManager\bin\Debug\taskManager.exe
+C:\Users\kristine heart\source\repos\taskManager\bin\Debug\taskManager.pdb
+C:\Users\kristine heart\source\repos\taskManager\obj\Debug\taskManager.csproj.AssemblyReference.cache
+C:\Users\kristine heart\source\repos\taskManager\obj\Debug\taskManager.csproj.CoreCompileInputs.cache
+C:\Users\kristine heart\source\repos\taskManager\obj\Debug\taskManager.exe
+C:\Users\kristine heart\source\repos\taskManager\obj\Debug\taskManager.pdb
