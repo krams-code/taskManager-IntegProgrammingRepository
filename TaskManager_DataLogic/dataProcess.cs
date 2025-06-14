@@ -6,33 +6,37 @@ namespace TaskManager_DataLogic
 {
     public class dataProcess
     {
-        List<Accounts> accounts = new List<Accounts>();
+        List<Tasks> task = new List<Tasks>();
         IDataService dataService;
-        
+
 
         public dataProcess()
         {
-             dataService = new InMemoryDataService();
+            //dataService = new InMemoryDataService();
+            //dataService = new TextFileDataService();
+            //dataService = new JsonDataService();
+            dataService = new DatabaseDataProcess();
         }
-        
-        public List<Accounts> GetAccounts()
+        public List<Tasks> GetAll()
         {
             return dataService.GetAll();
         }
-        public bool AddTask(string username, string task) { 
-            return dataService.AddTask(username, task);
-        }
-        public string GetTask(string username) { 
-        return dataService.GetTasks(username);
-        }
-        public bool DeleteTask(int index, string username)
+
+        public bool AddTask(string task)
         {
-            return dataService.DeleteTask(index, username);
+            return dataService.AddTask(task);
         }
-        public bool UpdateTask(int index, string username)
+        public int GetTaskCount()
         {
-            return dataService.UpdateTask(index, username);
+            return dataService.GetTaskCount();
+        }
+        public bool DeleteTask(int index)
+        {
+            return dataService.DeleteTask(index);
+        }
+        public bool UpdateTask(int index)
+        {
+            return dataService.UpdateTask(index);
         }
     }
 }
-

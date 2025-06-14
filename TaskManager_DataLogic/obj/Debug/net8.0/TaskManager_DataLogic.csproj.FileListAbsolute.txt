@@ -13,3 +13,4 @@ C:\Users\kristine heart\source\repos\TaskManager_DataLogic\obj\Debug\net8.0\Task
 C:\Users\kristine heart\source\repos\TaskManager_DataLogic\obj\Debug\net8.0\refint\TaskManager_DataLogic.dll
 C:\Users\kristine heart\source\repos\TaskManager_DataLogic\obj\Debug\net8.0\TaskManager_DataLogic.pdb
 C:\Users\kristine heart\source\repos\TaskManager_DataLogic\obj\Debug\net8.0\ref\TaskManager_DataLogic.dll
+C:\Users\kristine heart\source\repos\TaskManager_DataLogic\obj\Debug\net8.0\TaskManager_DataLogic.sourcelink.json

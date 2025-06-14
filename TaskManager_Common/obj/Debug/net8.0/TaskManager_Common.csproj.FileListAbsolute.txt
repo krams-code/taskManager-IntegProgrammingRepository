@@ -9,3 +9,4 @@ C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\TaskMan
 C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\refint\TaskManager_Common.dll
 C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.pdb
 C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\ref\TaskManager_Common.dll
+C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.sourcelink.json

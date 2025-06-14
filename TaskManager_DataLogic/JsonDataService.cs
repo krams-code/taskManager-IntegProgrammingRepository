@@ -1,34 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Principal;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 using TaskManager_Common;
 
 namespace TaskManager_DataLogic
 {
-    public class TextFileDataService : IDataService
+    public class JsonDataService : IDataService
     {
-        string filepath = "tasks.txt";
         List<Tasks> list_tasks = new List<Tasks>();
-        public TextFileDataService()
+        string filepath = "tasks.json";
+        public JsonDataService()
         {
-            GetDataFromFile();
+            ReadJsonDataFromFile();
         }
-        private void GetDataFromFile()
+        private void ReadJsonDataFromFile()
         {
-            var lines = File.ReadAllLines(filepath);
-            foreach (var line in lines)
-            {
-                var parts = line.Split('|');
-                list_tasks.Add(new Tasks
-                {
-                    TaskName = parts[1],
-                    Status = parts[0]
-                });
-            }
+            string json = File.ReadAllText(filepath);
+            list_tasks = JsonSerializer.Deserialize<List<Tasks>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+        public void SaveDataToFile()
+        {
+            var json = JsonSerializer.Serialize(list_tasks);
+            File.WriteAllText(filepath, json);
         }
         public bool AddTask(string task)
         {
@@ -44,9 +40,7 @@ namespace TaskManager_DataLogic
                 TaskName = task,
                 Status = "Pending"
             });
-
-            var newTask = $"Pending|{task}\n";
-            File.AppendAllText(filepath, newTask);
+            SaveDataToFile();
             return true;
         }
 
@@ -57,9 +51,7 @@ namespace TaskManager_DataLogic
                 return false;
             }
             list_tasks.RemoveAt(index);
-            var lines = File.ReadAllLines(filepath).ToList();
-            lines.RemoveAt(index);
-            File.WriteAllLines(filepath, lines);
+            SaveDataToFile();
             return true;
         }
 
@@ -84,9 +76,7 @@ namespace TaskManager_DataLogic
             {
                 task.Status = "Completed";
             }
-            var lines = File.ReadAllLines(filepath).ToList();
-            lines[index] = $"{task.Status}|{task.TaskName}";
-            File.WriteAllLines(filepath, lines);
+            SaveDataToFile();
             return true;
         }
     }

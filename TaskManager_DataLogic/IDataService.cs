@@ -10,12 +10,11 @@ namespace TaskManager_DataLogic
 
     public interface IDataService
     {
-        public List<Accounts> GetAll();
-        public string GetTasks(string username);
-        public bool UpdateTask(int index, string username);
-        public bool DeleteTask(int index,string username);
-        public bool AddTask(string username,string task);
-        public void DummyAccount();
+        public List<Tasks> GetAll();
+        public int GetTaskCount();
+        public bool UpdateTask(int index);
+        public bool DeleteTask(int index);
+        public bool AddTask(string task);
 
     }
 }

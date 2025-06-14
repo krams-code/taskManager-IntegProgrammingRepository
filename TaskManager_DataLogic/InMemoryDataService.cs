@@ -12,92 +12,57 @@ namespace TaskManager_DataLogic
     public class InMemoryDataService : IDataService
     {
 
-        List<Accounts> accounts = new List<Accounts>();
-        public InMemoryDataService()
+        List<Tasks> list_tasks = new List<Tasks>();
+        public List<Tasks> GetAll()
         {
-            DummyAccount();
+            return list_tasks;
         }
 
-        public bool AddTask(string username, string task)
+
+        public bool AddTask(string task)
         {
-            foreach (var account in accounts)
+            foreach (var tasks in list_tasks)
             {
-
-                if (account.username == username)
+                if (tasks.TaskName == task)
                 {
-                    account.Tasks.Add(task);
-
-                    return true;
-
+                    return false;
                 }
             }
-            return false;
-
-        }
-        public string GetTasks(string username)
-        {
-            string tasks = "";
-            foreach (var account in accounts)
+            list_tasks.Add(new Tasks
             {
-
-                for (int i = 0; i < account.Tasks.Count; i++)
-                {
-                    tasks += $"{i + 1}. {account.Tasks[i]}\n";
-
-                }
-            }
-            return tasks;
-
-        }
-
-        
-
-        public void DummyAccount()
-        {
-
-            accounts.Add(new Accounts
-            {
-                username = "admin",
-                password = "admin"
+                TaskName = task,
+                Status = "Pending"
             });
+            return true;
+        }
+        public int GetTaskCount()
+        {
+            return list_tasks.Count;
         }
 
-        public List<Accounts> GetAll()
+        public bool DeleteTask(int index)
         {
-            return accounts;
-        }
-        public bool DeleteTask(int index, string username)
-        {
-            foreach (var account in accounts)
+            if (index < 0 || index >= list_tasks.Count)
             {
-                if (account.username == username)
-                {
-                    if (index >= 0 && index < account.Tasks.Count)
-                    {
-                        account.Tasks.RemoveAt(index);
-                        return true;
-                    }
-                }
+                return false;
             }
-            return false;
+            list_tasks.RemoveAt(index);
+            return true;
         }
-        /*public bool UpdateTask(int index, string username)
-        {
-            foreach (var account in accounts)
-            {
-                if (account.username == username)
-                {
-                    if (index >= 0 && index < account.Tasks.Count)
-                    {
-                        account.Tasks[index] = account.Tasks[index] + " Complete\n";
-                        return true;
-                    }
-                }
 
+        public bool UpdateTask(int index)
+        {
+            if (index < 0 || index >= list_tasks.Count)
+            {
+                return false;
             }
-            return false;
-        }*/
+            var task = list_tasks[index];
+            if (task.Status == "Pending")
+            {
+                task.Status = "Completed";
+            }
+            list_tasks[index] = task;
+            return true;
+        }
     }
-
-       
 }
