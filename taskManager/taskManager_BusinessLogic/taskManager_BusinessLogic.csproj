@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="TaskManager_Common">
+      <HintPath>..\TaskManager_Common\bin\Debug\net8.0\TaskManager_Common.dll</HintPath>
+    </Reference>
+    <Reference Include="TaskManager_DataLogic">
+      <HintPath>..\TaskManager_DataLogic\bin\Debug\net8.0\TaskManager_DataLogic.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

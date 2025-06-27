@@ -1,0 +1,24 @@
+C:\Users\kristine heart\source\repos\TaskManager_Common\bin\Debug\net8.0\TaskManager_Common.deps.json
+C:\Users\kristine heart\source\repos\TaskManager_Common\bin\Debug\net8.0\TaskManager_Common.dll
+C:\Users\kristine heart\source\repos\TaskManager_Common\bin\Debug\net8.0\TaskManager_Common.pdb
+C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.AssemblyInfoInputs.cache
+C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.AssemblyInfo.cs
+C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.csproj.CoreCompileInputs.cache
+C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.dll
+C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\refint\TaskManager_Common.dll
+C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.pdb
+C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\ref\TaskManager_Common.dll
+C:\Users\kristine heart\source\repos\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.sourcelink.json
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\bin\Debug\net8.0\TaskManager_Common.deps.json
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\bin\Debug\net8.0\TaskManager_Common.dll
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\bin\Debug\net8.0\TaskManager_Common.pdb
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.AssemblyInfoInputs.cache
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.AssemblyInfo.cs
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.csproj.CoreCompileInputs.cache
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.sourcelink.json
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.dll
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\obj\Debug\net8.0\refint\TaskManager_Common.dll
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\obj\Debug\net8.0\TaskManager_Common.pdb
+C:\Users\Disomimba\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\TaskManager_Common\obj\Debug\net8.0\ref\TaskManager_Common.dll

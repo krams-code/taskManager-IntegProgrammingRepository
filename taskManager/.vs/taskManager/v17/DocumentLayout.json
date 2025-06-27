@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kristine heart\\source\\repos\\taskManager\\",
+  "WorkspaceRootPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0759C054-DFD8-4D69-B7FE-E105533CB8B5}|taskManager.csproj|c:\\users\\kristine heart\\source\\repos\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0759C054-DFD8-4D69-B7FE-E105533CB8B5}|taskManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4AD6CCA-DFDE-7063-A278-5107E99B92EE}|TaskManager_DataLogic\\TaskManager_DataLogic.csproj|c:\\users\\disomimba\\documents\\github\\taskmanager-integprogrammingrepository\\taskmanager\\taskmanager_datalogic\\databasedataprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4AD6CCA-DFDE-7063-A278-5107E99B92EE}|TaskManager_DataLogic\\TaskManager_DataLogic.csproj|solutionrelative:taskmanager_datalogic\\databasedataprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FE6DFF3-72B3-441F-B6DC-0AC3D0B015B4}|ClassLibrary1taskManager_BusinessLogic\\ClassLibrary1taskManager_BusinessLogic.csproj|c:\\users\\kristine heart\\source\\repos\\taskmanager\\classlibrary1taskmanager_businesslogic\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE6DFF3-72B3-441F-B6DC-0AC3D0B015B4}|ClassLibrary1taskManager_BusinessLogic\\ClassLibrary1taskManager_BusinessLogic.csproj|solutionrelative:classlibrary1taskmanager_businesslogic\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8A97960-43AD-4756-B645-29B5BB3BE6F4}|taskManager.csproj|c:\\users\\disomimba\\documents\\github\\taskmanager-integprogrammingrepository\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A97960-43AD-4756-B645-29B5BB3BE6F4}|taskManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AD6CCA-DFDE-7063-A278-5107E99B92EE}|TaskManager_DataLogic\\TaskManager_DataLogic.csproj|c:\\users\\disomimba\\documents\\github\\taskmanager-integprogrammingrepository\\taskmanager\\taskmanager_datalogic\\dataprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4AD6CCA-DFDE-7063-A278-5107E99B92EE}|TaskManager_DataLogic\\TaskManager_DataLogic.csproj|solutionrelative:taskmanager_datalogic\\dataprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A97960-43AD-4756-B645-29B5BB3BE6F4}|taskManager.csproj|c:\\users\\disomimba\\documents\\github\\taskmanager-integprogrammingrepository\\taskmanager\\taskmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F8A97960-43AD-4756-B645-29B5BB3BE6F4}|taskManager.csproj|solutionrelative:taskmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69473D66-CA28-F8C8-C0FA-0213A8355EDC}|taskManager_BusinessLogic\\taskManager_BusinessLogic.csproj|c:\\users\\disomimba\\documents\\github\\taskmanager-integprogrammingrepository\\taskmanager\\taskmanager_businesslogic\\businesslogic_process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69473D66-CA28-F8C8-C0FA-0213A8355EDC}|taskManager_BusinessLogic\\taskManager_BusinessLogic.csproj|solutionrelative:taskmanager_businesslogic\\businesslogic_process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +34,64 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "process.cs",
-              "DocumentMoniker": "C:\\Users\\kristine heart\\source\\repos\\taskManager\\ClassLibrary1taskManager_BusinessLogic\\process.cs",
-              "RelativeDocumentMoniker": "ClassLibrary1taskManager_BusinessLogic\\process.cs",
-              "ToolTip": "C:\\Users\\kristine heart\\source\\repos\\taskManager\\ClassLibrary1taskManager_BusinessLogic\\process.cs",
-              "RelativeToolTip": "ClassLibrary1taskManager_BusinessLogic\\process.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "dataProcess.cs",
+              "DocumentMoniker": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_DataLogic\\dataProcess.cs",
+              "RelativeDocumentMoniker": "TaskManager_DataLogic\\dataProcess.cs",
+              "ToolTip": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_DataLogic\\dataProcess.cs",
+              "RelativeToolTip": "TaskManager_DataLogic\\dataProcess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T00:08:04.027Z"
+              "WhenOpened": "2025-06-27T15:16:20.3Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kristine heart\\source\\repos\\taskManager\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\kristine heart\\source\\repos\\taskManager\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Title": "DatabaseDataProcess.cs",
+              "DocumentMoniker": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_DataLogic\\DatabaseDataProcess.cs",
+              "RelativeDocumentMoniker": "TaskManager_DataLogic\\DatabaseDataProcess.cs",
+              "ToolTip": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_DataLogic\\DatabaseDataProcess.cs",
+              "RelativeToolTip": "TaskManager_DataLogic\\DatabaseDataProcess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T00:05:53.477Z",
+              "WhenOpened": "2025-06-27T15:13:30.234Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BusinessLogic_Process.cs",
+              "DocumentMoniker": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager_BusinessLogic\\BusinessLogic_Process.cs",
+              "RelativeDocumentMoniker": "taskManager_BusinessLogic\\BusinessLogic_Process.cs",
+              "ToolTip": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager_BusinessLogic\\BusinessLogic_Process.cs",
+              "RelativeToolTip": "taskManager_BusinessLogic\\BusinessLogic_Process.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T15:09:33.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "taskManager.csproj",
+              "DocumentMoniker": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager.csproj",
+              "RelativeDocumentMoniker": "taskManager.csproj",
+              "ToolTip": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager.csproj",
+              "RelativeToolTip": "taskManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-27T15:06:45.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAQwIcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T15:04:32.254Z"
             }
           ]
         }

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="taskManager_BusinessLogic">
+      <HintPath>..\..\..\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\taskManager_BusinessLogic\bin\Debug\net8.0\taskManager_BusinessLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="TaskManager_Common">
+      <HintPath>..\..\..\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\taskManager_BusinessLogic\bin\Debug\net8.0\TaskManager_Common.dll</HintPath>
+    </Reference>
+    <Reference Include="TaskManager_DataLogic">
+      <HintPath>..\..\..\Documents\GitHub\taskManager-IntegProgrammingRepository\taskManager\taskManager_BusinessLogic\bin\Debug\net8.0\TaskManager_DataLogic.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

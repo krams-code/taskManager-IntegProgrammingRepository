@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "x2OT/MPsyyw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager_BusinessLogic\\taskManager_BusinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Disomimba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.17\\microsoft.windowsdesktop.app.ref.8.0.17.nupkg.sha512",
+    "C:\\Users\\Disomimba\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.17\\microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
+    "C:\\Users\\Disomimba\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.17\\microsoft.aspnetcore.app.ref.8.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
