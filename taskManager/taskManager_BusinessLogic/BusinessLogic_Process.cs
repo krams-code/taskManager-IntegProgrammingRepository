@@ -15,6 +15,7 @@ namespace taskManager_BusinessLogic
         }
         public bool SaveTask(string task)
         {
+            EmailService.SendEmail("User@gmail.com", "User", task);
             return process.AddTask(task);
         }
         public bool RemoveTask(int index)

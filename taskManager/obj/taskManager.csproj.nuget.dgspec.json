@@ -1,17 +1,177 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager.csproj": {}
+    "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager.csproj": {
+    "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager.csproj",
+        "projectUniqueName": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager.csproj",
         "projectName": "taskManager",
-        "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager.csproj",
+        "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager.csproj",
         "packagesPath": "C:\\Users\\Disomimba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\obj\\",
+        "outputPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Disomimba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager_BusinessLogic\\taskManager_BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager_BusinessLogic\\taskManager_BusinessLogic.csproj"
+              },
+              "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj": {
+                "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager_BusinessLogic\\taskManager_BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager_BusinessLogic\\taskManager_BusinessLogic.csproj",
+        "projectName": "taskManager_BusinessLogic",
+        "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager_BusinessLogic\\taskManager_BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Disomimba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\taskManager_BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Disomimba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj": {
+                "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj"
+              },
+              "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_DataLogic\\TaskManager_DataLogic.csproj": {
+                "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_DataLogic\\TaskManager_DataLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj",
+        "projectName": "TaskManager_Common",
+        "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj",
+        "packagesPath": "C:\\Users\\Disomimba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +209,75 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_DataLogic\\TaskManager_DataLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_DataLogic\\TaskManager_DataLogic.csproj",
+        "projectName": "TaskManager_DataLogic",
+        "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_DataLogic\\TaskManager_DataLogic.csproj",
+        "packagesPath": "C:\\Users\\Disomimba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_DataLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Disomimba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj": {
+                "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.Data.SqlClient": {
               "target": "Package",
@@ -66,30 +295,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

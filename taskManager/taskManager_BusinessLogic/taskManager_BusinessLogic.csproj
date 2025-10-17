@@ -7,12 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="TaskManager_Common">
-      <HintPath>..\TaskManager_Common\bin\Debug\net8.0\TaskManager_Common.dll</HintPath>
-    </Reference>
-    <Reference Include="TaskManager_DataLogic">
-      <HintPath>..\TaskManager_DataLogic\bin\Debug\net8.0\TaskManager_DataLogic.dll</HintPath>
-    </Reference>
+    <PackageReference Include="MailKit" Version="4.14.1" />
+    <PackageReference Include="MimeKit" Version="4.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManager_Common\TaskManager_Common.csproj" />
+    <ProjectReference Include="..\TaskManager_DataLogic\TaskManager_DataLogic.csproj" />
   </ItemGroup>
 
 </Project>

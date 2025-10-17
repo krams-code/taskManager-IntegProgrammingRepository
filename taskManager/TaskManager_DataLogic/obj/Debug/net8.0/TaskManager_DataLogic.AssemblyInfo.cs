@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskManager_DataLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbec905018828e07a79819e7827ae91261c34c1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d52536b788a6663ebd11060b5c6741fa979c222c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskManager_DataLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskManager_DataLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

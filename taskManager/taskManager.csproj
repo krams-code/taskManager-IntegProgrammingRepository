@@ -8,12 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="TaskAPI\**" />
+    <Compile Remove="TaskManagerGUI\**" />
     <Compile Remove="taskManager_BusinessLogic\**" />
     <Compile Remove="TaskManager_Common\**" />
     <Compile Remove="TaskManager_DataLogic\**" />
+    <EmbeddedResource Remove="TaskAPI\**" />
+    <EmbeddedResource Remove="TaskManagerGUI\**" />
     <EmbeddedResource Remove="taskManager_BusinessLogic\**" />
     <EmbeddedResource Remove="TaskManager_Common\**" />
     <EmbeddedResource Remove="TaskManager_DataLogic\**" />
+    <None Remove="TaskAPI\**" />
+    <None Remove="TaskManagerGUI\**" />
     <None Remove="taskManager_BusinessLogic\**" />
     <None Remove="TaskManager_Common\**" />
     <None Remove="TaskManager_DataLogic\**" />
@@ -24,12 +30,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="taskManager_BusinessLogic">
-      <HintPath>taskManager_BusinessLogic\bin\Debug\net8.0\taskManager_BusinessLogic.dll</HintPath>
-    </Reference>
-    <Reference Include="TaskManager_Common">
-      <HintPath>taskManager_BusinessLogic\bin\Debug\net8.0\TaskManager_Common.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="taskManager_BusinessLogic\taskManager_BusinessLogic.csproj" />
+    <ProjectReference Include="TaskManager_Common\TaskManager_Common.csproj" />
   </ItemGroup>
 
 </Project>

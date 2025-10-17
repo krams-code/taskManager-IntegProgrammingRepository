@@ -14,10 +14,10 @@ namespace TaskManager_DataLogic
 
         public dataProcess()
         {
-            //dataService = new InMemoryDataService();
+            dataService = new InMemoryDataService();
             //dataService = new TextFileDataService();
             //dataService = new JsonDataService();
-            dataService = new DatabaseDataProcess();
+            //dataService = new DatabaseDataProcess();
         }
         public List<Tasks> GetAll()
         {

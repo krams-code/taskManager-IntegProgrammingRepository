@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj",
+      "projectUniqueName": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj",
       "projectName": "TaskManager_Common",
-      "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj",
+      "projectPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\TaskManager_Common.csproj",
       "packagesPath": "C:\\Users\\Disomimba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\obj\\",
+      "outputPath": "C:\\Users\\Disomimba\\Documents\\GitHub\\LATESTLATEST\\taskManager-IntegProgrammingRepository\\taskManager\\TaskManager_Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,26 +67,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.17, 8.0.17]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.17, 8.0.17]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.17, 8.0.17]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
